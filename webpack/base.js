@@ -35,10 +35,6 @@ module.exports = {
     }),
     new HtmlWebpackPlugin({
       template: "./index.html"
-    }),
-    new HtmlWebpackPlugin({
-      filename: "./ghost.psd",
-      template: "./src/assets/ghost.psd"
     })
   ]
 };

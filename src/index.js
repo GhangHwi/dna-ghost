@@ -11,7 +11,7 @@ class MyGame extends Phaser.Scene
     preload ()
     {
         this.load.image('logo', logoImg);
-        loadPsd(this, 'ghost','./ghost.psd');
+        loadPsd(this, 'ghost','https://github.com/GhangHwi/dna-ghost/raw/main/src/assets/ghost.psd');
     }
       
     create ()
